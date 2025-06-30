@@ -1,0 +1,26 @@
+
+ body {
+background-image: url(../imag/background.jpg);
+background-size: cover;
+background-position: center;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#weatherDisplay .item {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+#weatherDisplay img {
+  width: 64px;
+  height: 64px;
+}
+
+input::placeholder {
+  color: #bbb;
+}

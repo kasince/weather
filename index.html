@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="bg-dark">
+    <div class="container">
+      <div class="mb-3 mt-5 position-relative">
+        <input
+          type="text"
+          class="form-control"
+          id="findInput"
+          placeholder="Find your location..."
+        />
+        <button
+          id="findBtn"
+          class="btn btn-outline-info px-4 rounded-3 position-absolute top-0 end-0 me-2"
+        >
+          Find
+        </button>
+      </div>
+    </div>
+
+    <div class="container mt-5 text-white">
+      <div class="row" id="weatherDisplay">
+
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
+
