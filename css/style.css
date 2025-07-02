@@ -24,3 +24,11 @@ background-position: center;
 input::placeholder {
   color: #bbb;
 }
+
+.text-custom{
+  color: blueviolet;
+  font-size: xx-large;
+}
+.text-custom1{
+  font-size: xx-large;
+}

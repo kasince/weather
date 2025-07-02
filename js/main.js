@@ -22,7 +22,7 @@ async function getWeather(cityName) {
     let data = await response.json();
 
     if (data.error) {
-      weatherDisplay.innerHTML = `<p class="text-danger text-center">City not found!</p>`;
+      weatherDisplay.innerHTML = `<h1 class="text-danger text-center">City not found!</h1>`;
       return;
     }
 
